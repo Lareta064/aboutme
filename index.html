@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+    <title>Моя страничка</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="верстка веб-сайтов, верстка html-5, css-3, bootstrap, лендинги">
+    <meta name="description" content="Услуги по верстке веб-сайтов, качество, оперативность, низкие цены">
+
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="libs/fancybox/jquery.fancybox.css">
+    
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/noto/noto.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- FavIcons -->
+    <link rel="shortcut icon" href="img/icons/favicon.ico"  type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<!--Head-->
+  	<div class="header">
+        <div class="header__inner"> 
+         <!--Иконка навигации для маленьких экранов-->
+        <button id="navigation__button" class="cmn-toggle-switch cmn-toggle-switch__htx">
+           <span>toggle menu</span>
+        </button>
+         <!--//Иконка навигации для маленьких экранов-->
+        	<nav class="navigation">           
+            <ul class="navigation__list">
+              
+              <li><a href="#portfolio">портфолио</a></li>
+              <li><a href="#contacts">контакты</a></li>
+            </ul>
+          </nav>
+
+          <div class="header__centr-content">
+            
+            <h1 class="header__title">Lara Batalova</h1>
+            <h2 class="header__subtitle">HTML верстка сайтов</h2> 
+          </div>
+
+          <!--Mouse scroll -->
+          <a href="#resume" class="mouse_scroll">
+            <div class="mouse">
+              <div class="wheel"></div>
+            </div>
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
+          </a>
+         <!--End Mouse scroll -->
+  	   </div>             
+    </div>  
+  	<!--end Head-->
+
+  	<!--About_my
+    
+    <div class="resume section section--bottom-line" id="resume">
+      <div class="container">
+      	<div class="row">
+      		<div class="hidden-xs col-sm-2 col-lg-3">
+      			<div class="my-foto my-foto--big ">
+                <img src="img/usercontent/bg_big2_foto.jpg" alt="Лара Баталова">
+             </div>
+      		</div>
+      		<div class="col-xs-12 col-sm-10 col-lg-9">
+      			<div class="heading">Резюме</div>
+            <p><strong>Ларета Баталова</strong><br>
+            48 лет, Саратов, Россия</p>
+            <p>Я на жизнь смотрю снисходительно. Диалектика такова: все - условно, все - относительно, только случай всему - голова! </p>
+      		</div>
+      	</div>
+     
+  	
+  	    
+
+      	<div class="row">
+      		<div class="col-sm-5 col-sm-offset-2 col-lg-4 col-lg-offset-3">
+      			<div class="heading heading--medium">Опыт работы</div>
+      		
+            <ul class="defin-list">
+              <li class="defin-list__item">
+                <div class="defin-list__def">Декабрь — настоящее время</div>
+                <div class="defin-list__descrip">
+                  <p>Верстальщик в веб-студии “Веб-Старт”.</p>
+                </div>
+              </li>
+              <li class="defin-list__item">
+                <div class="defin-list__def">Октябрь 2015 — Декабрь 2016</div>
+                <div class="defin-list__descrip">
+                  <p>Фрилансер, веб-дизайнер.</p>
+                  </div>
+              </li>
+              <li class="defin-list__item">
+                <div class="defin-list__def">Сентбярь 2014 — Октябрь 2015</div>
+                <div class="defin-list__descrip">
+                  <p>«ООО Кибер Софт» — Системный администратор.</p>
+                  </div>
+              </li>
+            </ul>
+        </div>
+
+    		<div class="col-xs-12 col-sm-5">
+    			<div class="heading heading--medium heading--medium-pl-90">Образование</div>       
+           <ul class="defin-list defin-list--pr-0">
+              <li class="defin-list__item">
+                <div class="defin-list__def">Декабрь 2016</div>
+                <div class="resume__list-item-resume-comment">
+                  <p>Курсы по верстке сайтов HTML5, CSS3 - WebCademy.ru
+                  </p>
+                </div>
+              </li>
+              <li class="defin-list__item">
+                <div class="defin-list__def">2008 — 2012</div>
+                <div class="defin-list__descrip">
+                  <p>Московский Государственный университет дизайна и технологий, специальность дизайнер-технолог.</p>
+                  </div>
+              </li>
+          </ul>   
+    		</div>
+        	</div>
+              <div class="row">
+              <div class="col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-3">
+              <a href="#" download="Resume.pdf" class="button">
+                <i class="fa fa-download" aria-hidden="true"></i>
+                Скачать резюме
+              </a>     
+          </div>
+        </div> 
+      </div> 
+    </div>-->
+        <!--end About_my-->
+ 
+    <!--portfolio-->
+  <div class="portfolio section section--pad-smaller" id="portfolio"> 
+    <div class="container ">
+      <div class="heading heading--center">Мои работы</div>
+     
+      <!--Filter-->
+      <div class="filter-block">
+        <ul class="filter-block__block">
+          <li class="filter-block__element">
+            <span class="filter filter-block_button filter-block_button--active" data-filter="all">все</span>
+          </li>
+          
+          <li class="filter-block__element">
+            <span class="filter filter-block_button" data-filter=".tutorial">учебные</span>
+          </li>
+          <li class="filter-block__element">
+            <span class="filter filter-block_button" data-filter=".payed">на заказ</span>
+          </li>
+        </ul>
+      </div>
+       <!--//Filter-->                                            
+        <!--Portfolio block -->
+      <div class="row" id="testfilter">
+        <!--portfolio item_1 (img+title+descrip-->
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              
+              <a href="usercontent/img/full/organic.png" class="fancybox portfolio-item__img" rel="group" title="макет Органика">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>смотреть макет</span> 
+                </div>
+                <!--//block search -->
+                <img src="img/usercontent/img/project_organica.jpg">
+              </a>
+              <div class="portfolio-item__title">
+                <a href="https://lareta064.github.io/Organica/" target="_blank">Учебный макет Organica</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка одностраничного сайта.
+              </div>
+            </div>
+          </div>
+          <!--//portfolio item-->
+
+          <!--portfolio item_2 (img+title+descrip-->
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              <a href="usercontent/img/full/apollo.png" class="fancybox portfolio-item__img" rel="group" title="макет Аполло-404">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>смотреть макет</span> 
+                </div>
+                <!--//block search -->
+                <img src="img/usercontent/img/project_apollo.jpg">
+              </a>
+              <div class="portfolio-item__title">
+               <a href="https://lareta064.github.io/Project_Apollo/" target="_blank"> Учебный макет Аполло</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка лендинга хостинг компании. 
+              </div>
+            </div>
+          </div>  
+          <!--//portfolio item-->
+
+          <!--portfolio item_3 (img+title+descrip-->
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              <a href="usercontent/img/full/portfolio2.png" class="fancybox portfolio-item__img" rel="group" title="макет Портфолио">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>смотреть макет</span> 
+                </div>
+                <!--//block search -->
+               <img src="img/usercontent/img/portfolio.jpg">
+              </a>
+              <div class="portfolio-item__title">
+                <a href="#">Личный сайт портфолио</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка личного сайта портфолио. 
+              </div>
+            </div>
+          </div> 
+          <!--//portfolio item-->
+
+          <!--portfolio item_4 (img+title+descrip-->
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              
+                <a href="http://cryptoinvest.asia" target="_blank">Invest relations</a>
+              <a href="http://cryptoinvest.asia" class="fancybox portfolio-item__img" rel="group" title="макет Органика">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>перейти на сайт</span> 
+                </div>
+                <!--//block search -->
+                <img src="img/usercontent/img/work1.png">
+              </a>
+              <div class="portfolio-item__title">
+                <a href="http://cryptoinvest.asia" target="_blank">cryptoinvest.asia</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка одностраничного сайта.
+              </div>
+            </div>
+          </div>
+          <!--//portfolio item-->
+
+          
+
+           <!--portfolio item_5 (img+title+descrip-->
+     
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              
+              <a href="http://pushminer-kontejnery.ru" class="fancybox portfolio-item__img" rel="group" title="Контейнеры для майнинга">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>перейти на сайт</span> 
+                </div>
+                <!--//block search -->
+                <img src="img/usercontent/img/work2.png">
+              </a>
+              <div class="portfolio-item__title">
+                <a href="http://pushminer-kontejnery.ru" target="_blank">Контейнеры для майнинга</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка одностраничного сайта.
+              </div>
+            </div>
+          </div>
+
+           <!--portfolio item_6 (img+title+descrip-->
+          
+
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              
+              <a href="usercontent/img/full/organic.png" class="fancybox portfolio-item__img" rel="group" title="Дизайн интерьера">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>перейти на сайт</span> 
+                </div>
+                <!--//block search -->
+                <img src="img/usercontent/img/work3.png">
+              </a>
+              <div class="portfolio-item__title">
+                <a href="http://kubkvadrat.ru" target="_blank">Дизайн интерьера</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка одностраничного сайта.
+              </div>
+            </div>
+          </div>
+
+                <!--portfolio item_7 (img+title+descrip-->
+          <div class=" col-sm-4 col-lg-4 mix tutorial">
+            <div class="portfolio-item">
+              
+              <a href="https://cryptoevents.asia" class="fancybox portfolio-item__img" rel="group" title="Invest relations">
+                <!--block search -->
+                <div class="portfolio-item__img__hover">
+                 <i class="fa fa-search" aria-hidden="true"></i><br>
+                 <span>перейти на сайт</span> 
+                </div>
+                <!--//block search -->
+                <img src="img/usercontent/img/work4.png">
+              </a>
+              <div class="portfolio-item__title">
+                <a href="https://cryptoevents.asia" target="_blank">Cryptoevents.asia</a>
+              </div>
+              <div class="portfolio-item__description">
+                Верстка одностраничного сайта.
+              </div>
+            </div>
+          </div>
+          <!--//portfolio item-->  
+        </div>
+       </div>  
+      </div>          
+    <!--End My portfolio-->
+
+    <!--Contacts-->
+
+
+  <div class="contacts section section--pad-smaller" id="contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-5">
+        <div class="heading heading--white">Контакты</div>
+        <!--<div class="contacts--description">
+          <p>
+            Если вы ищите специалиста по верстке сайтов,
+            front-end разработчика в команду или для работы над проектом —  я к вашим услугам.
+          </p>
+        </div>-->
+        <!--Контактные данные-->
+        <div class="row">
+        <!--имейл и скайп-->
+        <div class="col-lg-6">                       
+              <ul class="defin-list">
+              <li class="defin-list__item">
+                <div class="defin-list__def defin-list__def--light ">Email</div>
+                <div class="defin-list__descrip">
+                  <p><a href="mailto:lareta064@gmail.com">lareta064@gmail.com</a></p>
+                  </div>
+              </li>
+
+             
+            </ul>
+          </div> 
+                    <!--тел и адрес-->
+            <div class="col-lg-6">
+             
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="defin-list">
+              <li class="defin-list__item">
+                <div class="defin-list__def defin-list__def--light">Социальные сети</div>
+                <div class="social-icons__item">
+                      <a href="https://vk.com/id165990883" class="fa fa-vk" aria-hidden="true" target="_blank"></a>
+                     <!--<a href="#" class="fa fa-twitter" aria-hidden="true"></a>
+                      <a href="#" class="fa fa-youtube" aria-hidden="true"></a>
+                      <a href="#" class="fa fa-instagram" aria-hidden="true"></a>-->
+                      <a href="https://github.com/Lareta064" class="fa fa-github" aria-hidden="true" target="_blank"></a>
+                </div>                
+              </li>
+             </ul>
+           </div>   
+        </div> 
+       </div>       
+            <!--Блок-форма связи-->  
+        <div class="col-sm-6 col-lg-6 col-lg-offset-1">
+
+        <div class="heading heading--medium heading--medium-mt heading--white">Связаться со мной</div> 
+            
+        <form class="contact-form" id="contact-form">
+
+          <input type="text" class="contact-form__input" name="name" placeholder="Ваше имя" >
+          <input type="text" class="contact-form__input " name="email" placeholder="email" >
+         <!--skype & phone-->  
+       
+        <!--//email & skype-->  
+          
+          <div class="contact-form__bg-pencil">
+             <textarea class ="contact-form__textarea" name="message" placeholder="Ваше сообщение"></textarea>
+         </div>
+          <input type="submit"  class ="contact-form__submit" name="" value="отправить">
+        </form> 
+      </div>
+       <!--//Блок-форма связи--> 
+     </div>
+   </div>
+  </div>   
+
+
+  <!--End Contact-->  
+
+  <!--Footer--> 
+  <div class="footer">
+    <div class="container">
+      <div class="copyright">
+      <p class="copyright-label">© 2017 LB</p>
+      <p>  Верстка и создание сайтов.</p>
+      <p>Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a class="webcademy-link" href="http://webcademy.ru/" target="_blank"> WebCademy.ru</a></p>
+      </div>  
+    </div>
+  </div>
+ 
+    <!--End Footer-->
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+    <!--скрипт для переключения фильтра -->
+    <script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+
+    <!--скрипт позволяет сделать просмотр проекта -->
+    <script src="libs/fancybox/jquery.fancybox.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+
+    <!--скрипт валидация формы -->
+    <script src="libs/jquery.validate/jquery.validate.js"></script>
+
+    <!--Custom script -->
+    <script  src="js/navigation.js"></script>     
+     <script src="js/main.js"></script>
+
+     <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46865178 = new Ya.Metrika({
+                    id:46865178,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/46865178" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+     
+
+  </body>
+
+
+</html>
