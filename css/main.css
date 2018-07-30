@@ -809,6 +809,13 @@ a.mouse_scroll:focus {
   margin-right: auto;
   margin-bottom: 40px;
   max-width: 360px;
+
+}
+@media (min-width: 768px){
+ .portfolio-item{
+  height: 360px;
+ }
+
 }
 .portfolio-item__img {
   position: relative;
